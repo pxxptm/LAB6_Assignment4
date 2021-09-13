@@ -119,8 +119,8 @@ int main()
                     }
                 }
 
-                    if(x==0) { cd=0; break; }
-                    else if(x==76) { ca=0; break; }
+                    if(x==0) { ca=0; break; }
+                    else if(x==76) { cd=0; break; }
                 }
             }
     } while (ch!='x');
