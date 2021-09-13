@@ -77,8 +77,8 @@ int main()
         if (_kbhit()) // direction
         {
             ch=_getch();
-            if(ch=='a') { dir=1; cd=1; }
-            else if(ch=='d') { dir=-1; ca=1; }
+            if(ch=='a') { dir=-1; cd=1; }
+            else if(ch=='d') { dir=1; ca=1; }
             else if(ch=='s') { dir=0; }
             else if(ch==' ')
             {
